@@ -56,24 +56,23 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Sunzid Hassan</a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Lingxiao Wang</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Khan Raqib Mahmud</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Louisiana Tech University<br>MDPI Sensors, 2024</span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
+                         <!-- Sensors paper link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://www.mdpi.com/2740946" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -83,7 +82,7 @@
                     </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,11 +90,11 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/SunzidHassan/23_fusion_cp" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -105,15 +104,15 @@
                 </span>
 
                 <!-- ArXiv abstract Link -->
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                  <span>arXiv</span> -->
+                <!-- </a>
+              </span> -->
             </div>
           </div>
         </div>
@@ -129,11 +128,11 @@
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <source src="static/videos/Fusion.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Sample osl navigation run using the vision and olfaction fusion navigation algorithm. 
       </h2>
     </div>
   </div>
@@ -148,7 +147,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Odor Source Localization (OSL) technology allows autonomous agents like mobile robots to find an unknown odor source in a given environment. An effective navigation algorithm that guides the robot to approach the odor source is the key to successfully locating the odor source. Downside of traditional olfaction-only OSL methods is that they struggle to localize odor sources in real-world environments with complex airflow. Our proposed solution integrates vision and olfaction sensor modalities to localize odor sources even if olfaction sensing is disrupted by turbulent airflow or vision sensing is impaired by environmental complexities. The model leverages the zero-shot multi-modal reasoning capabilities of large language models (LLMs), negating the requirement of manual knowledge encoding or custom-trained supervised learning models. A key feature of the proposed algorithm is the `High-level Reasoning' module, which encodes the olfaction and vision sensor data into a multi-modal prompt and instructs the LLM to employ a hierarchical reasoning process to select an appropriate high-level navigation behavior. Subsequently, the `Low-level Action' module translates the selected high-level navigation behavior into low-level action commands that can be executed by the mobile robot. To validate our method, we implemented the proposed algorithm on a mobile robot in a complex, real-world search environment that presents challenges to both olfaction and vision-sensing modalities. We compared the performance of our proposed algorithm to single sensory modality-based olfaction-only and vision-only navigation algorithms, and a supervised learning-based vision and olfaction fusion navigation algorithm. Experimental results demonstrate that multi-sensory navigation algorithms are statistically superior to single sensory navigation algorithms. The proposed algorithm outperformed the other algorithms in both laminar and turbulent airflow environments.
           </p>
         </div>
       </div>
@@ -158,102 +157,69 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+<!-- Methodology -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Methodology</h2>
+        <div class="content has-text-justified">
+          <figure>
+            <img src="static\images\FusionFlowDiagram.png" alt="Flow diagram" style="max-width: 60%;">
+            <figcaption>Figure: Flow diagram of the Proposed Vision and Olfaction Fusion Navigation Algorithm.</figcaption>
+          </figure>
+          <p>
+            We trained a YOLOv7 model to detect visible odor plumes. If the model detects a visible odor plume, the navigation algorithm follows 'Vision-based Navigation'. Otherwise, it follows 'Olfaction-based Navigation' to localize the odor source.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- End Methodology -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+<!-- Paper Experiment -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiment</h2>
+        <div class="content has-text-justified">
+          <figure>
+            <img src="static\images\SearchArea.png" alt="Search Area" style="max-width: 100%;">
+            <figcaption>Figure: Search area used in experiments.</figcaption>
+          </figure>
+          <p>
+            Search area: The focus of the experiment is to test if the proposed navigation algorithm can avoid the obstacle and navigate to the odor source in laminar and turbulent airflow environments.
+          </p>
+          <p>
+            To determine the effectiveness of the multimodal fusion navigation algorithm, we compared the proposed algorithm to single sensory modality-based 'Olfaction-only' and 'Vision-only' navigation algorithms.
+          </p>
+          <figure>
+            <img src="static\images\robotPlatform.png" alt="Robot Platform" style="max-width: 100%;">
+            <figcaption>Figure: Robotic platform used in experiments.</figcaption>
+          </figure>
+          <p>
+            The robotic platform used for this task utilizes a Raspberry Pi Camera for vision sensing, an MQ3 alcohol detector and a WindSonic Anemometer for olfaction sensing, and a LDS-02 Laser Distance Sensor.
+          </p>
+          <figure>
+            <img src="static\images\sampleRun.png" alt="Sample Run" style="max-width: 100%;">
+            <figcaption>Figure: Sample test results.</figcaption>
+          </figure>
+          <figure>
+            <img src="static\images\Results.png" alt="Experiment Results" style="max-width: 100%;">
+            <figcaption>Figure: Repeated test results.</figcaption>
+          </figure>
+          <p>
+            The results show that the proposed Fusion navigation algorithm (e1vo and e2vo) outperformed both the olfaction-only (e1o and e2o) and vision-only (e1v and e2v) navigation algorithms. The performance gap was greater in turbulent airflow environment (e2).
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
-
+<!-- End Experiment -->
 
 
 
@@ -265,7 +231,7 @@
     <div class="container">
       <h2 class="title">Poster</h2>
 
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/sensors-24-02309-v2.pdf" width="100%" height="550">
           </iframe>
         
       </div>
@@ -278,29 +244,22 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+        @article{hassan2024robotic,
+        title={Robotic Odor Source Localization via Vision and Olfaction Fusion Navigation Algorithm},
+        author={Hassan, Sunzid and Wang, Lingxiao and Mahmud, Khan Raqib},
+        journal={Sensors},
+        volume={24},
+        number={7},
+        pages={2309},
+        year={2024},
+        publisher={MDPI}
+      }
+      </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
 
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
 
 <!-- Statcounter tracking code -->
   
